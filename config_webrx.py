@@ -146,7 +146,7 @@ To use a HackRF, compile the HackRF host tools from its "stdout" branch:
 # * the vendor provided driver and library, 
 # * the vendor-specific SoapySDR wrapper library, 
 # * and SoapySDR itself.
-# Check out this article on the OpenWebRX Wiki: https://github.com/simonyiszk/openwebrx/wiki/Using-rx_tools-with-OpenWebRX/
+# Check out this article on the OpenWebRX Wiki: https://github.com/simonyiszk/openwebrx/wiki/Using-SoapySDR-via-rx_tools-with-OpenWebRX
 #start_rtl_command="rx_sdr -F CF32 -s {samp_rate} -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
 #format_conversion=""
 
